@@ -25,3 +25,54 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Old Styles */
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:visited{
+    color: #fff;
+}
+
+.YouTube_Container{
+  height: 50vh;
+}
+
+.pics {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.item {
+  border-radius: 5px;
+  padding: 10px;
+  background: #9B211A;
+}
+
+.item img {
+  max-width: 100%;
+}
+
+.level-1 {
+  grid-row-end: span 3;
+}
+
+.level-2 {
+  grid-row-end: span 2;
+}
+
+.level-3 {
+  grid-row-end: span 1;
+  align-self: start;
+}
