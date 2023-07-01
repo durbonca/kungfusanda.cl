@@ -26,7 +26,7 @@ const VideoCover = () => {
         <video
             ref={videoRef}
             autoPlay
-            muted={false}
+            muted
             loop
             playsInline
             className='w-full'
