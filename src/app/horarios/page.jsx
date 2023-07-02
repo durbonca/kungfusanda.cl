@@ -4,7 +4,7 @@ Image
 
 export default function Horarios() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full mt-4">
     <h1 className="text-center text-5xl mb-8">Horarios</h1>
     <div className="flex justify-around items-top w-full gap-4 flex-col md:flex-row md:items-center">
       <div className="md:rounded-lg w-full md:w-1/2 overflow-hidden">
