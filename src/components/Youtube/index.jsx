@@ -2,9 +2,7 @@ import React from 'react'
 
 const Youtube = () => {
   return (
-    <div
-        className='relative'
-    >Youtube</div>
+    <div>Youtube</div>
   )
 }
 

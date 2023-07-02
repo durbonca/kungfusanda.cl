@@ -14,13 +14,7 @@ const VideoCover = () => {
     <section>
       <div
         style={{
-          width: '100vw',
-          height: '90vh',
-          position: 'fixed',
-          top: 60,
-          left: 0,
-          right: 0,
-          zIndex: -1,
+          width: '100vw'
         }}
       >
         <video
