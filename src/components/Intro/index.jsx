@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 const index = () => {
   return (
       <section className="max-w-full p-12 bg-white flex gap justify-center items-center flex-col-reverse md:flex-row">
@@ -12,7 +11,7 @@ const index = () => {
               mejor de ti mediante nuestras disciplinas:
               <br />
               <br />
-              <ul>
+              <ul className="mb-4">
                 <li> kung fu estilo choy lee fut</li>
                 <li> Sanda (deporte de contacto) </li>
                 <li> Acondicionamiento físico </li>
@@ -25,14 +24,15 @@ const index = () => {
             </span>
         </div>
         <div className="m-auto w-full h-full md:w-2/5">
-          <img
+          <Image
+            className="w-full h-auto"
             src="/img/nuevoLogo.jpeg"
             alt="logo"
             style={{
               mixBlendMode: 'hard-light',
             }}
-            width="100%"
-            height="auto"
+            width={1280}
+            height={988}
           />
         </div>
       </section>
