@@ -8,7 +8,7 @@ import { HiViewList as Bars3Icon, HiOutlineX as XMarkIcon } from 'react-icons/hi
 const navigation = [
   { name: 'Home', href: '/', current: false },
   { name: 'Horarios', href: 'horarios', current: false },
-  { name: 'Valores', href: 'valores', current: false },
+  { name: 'Planes', href: 'planes', current: false },
 ]
 
 const navigationDropdown = [
